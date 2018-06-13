@@ -45,8 +45,11 @@
 }
 .footer {
     background-color: #828282;
+    color: #FFFFFF;
+    height: 300px;
+    margin: 43px 0 0 0;
 }
-p {
+p footer {
     font-weight: 700;
     color: azure;
     font:10px;
