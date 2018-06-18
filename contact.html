@@ -9,10 +9,124 @@
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
 </head>
+    <style>
+        .nav {
+            dispaly:flex;
+          background: @hd-clr;
+          z-index: 20;
+          height: 50px;
+          width: 100%;   
+        }
+
+.jumbo {
+  background: transparent url("../img/home/home-jumbotron.png") no-repeat center center /cover;
+  height: 598px;
+  position: relative
+}
+.jmbo-txt {
+  margin: 0 0 49px 9.5%;
+  position: absolute;
+  bottom: 49px;
+  left: 8%;
+}
+.snj {
+  color: @white;
+   margin: 23px auto 0;
+  top: -10px;
+  left: 8%;
+}
+.hamburger {
+    margin: 25px 0px 0;
+    right: 8.4%;
+    top: -10px; 
+}
+        .footer {
+    background: #828282;
+    color: #FFFFFF;
+    height: 300px;
+    height: 257px;
+    margin: 43px 0 0 0;
+ }
+    .footer .ft-top {
+  margin-top: 35px;
+}
+.footer span {
+  font-size: 20px;
+  line-height: 24px;
+}
+.footer p {
+  font-size: 14px;
+  line-height: 26px;
+}
+.footer input {
+  width: 280px;
+  margin-top: 25px;
+}
+    </style>
 
 <body>
+    <div class="container contact">
+        
+        <div class="nav contact us ">
+            <h1 class="snj">S&amp;J</h1>
+				<div class="hamburger">
+						<img src="img/nav-hamburger.png" alt=>
+				</div>	   
+		</div> 
+		<div class="container-fluid jumbo">
+				<div class="jmbo-txt">
+						<h1>Contact Us</h1>
+				</div>
+		</div>
 
-	<h1>Contact</h1>
+        
+        </div> 
+        <div class="main get in touch"> </div>
+        <div class="aside where we work"></div>
+        <div class="footer interested">
+		<div class="row flex-nowrap inline footer">
+				<div class="col-4 d-flex justify-content-end align-items-end ft-top">
+					<form>
+						<div>
+							<span><label for="userEmail">
+								Interested in starting a project?<br>  
+								Let’s talk:
+							</label><br></span>
+							<input id="userEmail" type="email" placeholder="Enter email"><br>
+							<p>We'll never share your email with anyone else.</p>		
+						</div>
+					</form>
+				</div>
+				<div class="col-8 d-flex justify-content-around align-items-end ft-top">
+					<p>
+					 <span>New York<br></span>
+					 123 Lane<br>
+					 Suite 100<br>
+					 Albany, NY 12345<br>
+					 202 555 0144
+					</p>
+					<p>
+					  <span>Florida<br></span>
+					  Ocean Drive<br>
+					  Suite 201<br>
+					  Orlando, FL 22345<br>
+					  502 555 0144
+					</p>
+					<p>
+		<span>California<br></span>
+						Mountain Street<br>
+						Suite 105<br>
+						San Diego, CA 22345<br>
+						702 555 0144
+					</p>
+				</div>
+				<div class="col d-flex justify-content-center align-items-end">
+					<p>Copyright © 2018 Smith and Jones</p>
+				</div>
+			</div>  
+		</div>
+    
+    
 
 <!-- Contactd Us Content 
   Contact Us
@@ -55,6 +169,7 @@ San Diego, CA 22345
 702 555 0144
 
 -->
+    
 
 	<script src="js/index.js"></script>
 </body>
